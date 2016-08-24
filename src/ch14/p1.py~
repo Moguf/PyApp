@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+def urlprint(protocol, hsot, domain):
+    url = '{}://{}.{}'.format(protocol, host, domain)
+    print(url)
